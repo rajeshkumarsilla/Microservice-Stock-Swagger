@@ -16,7 +16,7 @@ public class StockController {
 	Stock st4=new Stock(4, "WIPRO", 567);
 	Stock st5=new Stock(5, "TCS", 787);
 	Stock st6=new Stock(6, "CTS", 9292);
-	ArrayList<Stock> allStocks=new ArrayList(Arrays.asList(st1,st2,st3,st4,st5));
+	ArrayList<Stock> allStocks = new ArrayList<Stock>(Arrays.asList(st1,st2,st3,st4,st5));
 
 	@GetMapping("/info")
 	public String m1()
