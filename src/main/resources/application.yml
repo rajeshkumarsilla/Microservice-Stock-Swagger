@@ -1,0 +1,19 @@
+### Spring properties
+# Service registers under this name
+#spring:
+ # application:
+  #  name: stocks-microservice
+    
+# Discovery Server Access
+#eureka:
+ #   client:
+  #    serviceUrl:
+   #     defaultZone: http://localhost:8083/eureka/
+        
+    #instance:
+     # instance-id: ${random.value}
+
+# HTTP Server (Tomcat) Port
+server:
+  #port: ${PORT:0} 
+  port: 8089
