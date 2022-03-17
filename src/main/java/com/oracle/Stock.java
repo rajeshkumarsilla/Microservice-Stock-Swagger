@@ -33,7 +33,8 @@ public class Stock
 	public void setStockPrice(double stockPrice) {
 		this.stockPrice = stockPrice;
 	}
-
-
-	
+	@Override
+	public String toString() {
+		return "Stock [stockId=" + stockId + ", stockName=" + stockName + ", stockPrice=" + stockPrice + "]";
+	}
 }
